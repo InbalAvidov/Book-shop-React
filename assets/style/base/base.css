@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+}
+
+body {
+  margin: 0;
+  color: var(--gray3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  margin: .3rem 0 .3rem;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+p {
+  margin: 0 0 1em;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: var(--clr2bg);
+  margin: 0.5em;
+  padding: 0.4em 0.8em;
+  border-radius: 4px;   
+  color: var(--clr2);
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 0.9rem;
+
+}
+
+a:hover {
+  background-color: var(--clr2);
+  color: white;
+  transition: .3s;
+}
+span{
+  text-decoration: underline;
+}
+
+table{
+  border-collapse: collapse;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  margin-bottom: 10px;
+}
+
+td,th{
+  border: 1px solid rgb(192, 192, 192);
+  padding: 3px;
+}
+
+
+
+/* Dont stretch my Media */
+img,
+embed,
+video,
+object {
+  max-width: 100%
+}
+
+/* Simple and useful CSS Debugging Technique */
+.debug * {
+  outline: 1px solid gold
+}
+
+/* Class */
+.red{
+  color: rgb(231, 118, 118);
+}
+.green{
+  color: rgb(139, 215, 118);
+}

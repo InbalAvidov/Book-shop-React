@@ -1,0 +1,27 @@
+.book-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.book-details h1 {
+    color: var(--clr1); 
+    font-size: 2rem;
+}
+
+.book-details img {
+    margin: 20px auto 0;
+    max-width: 180px;
+    display: block;
+}
+
+.book-pages{
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+}
+
+

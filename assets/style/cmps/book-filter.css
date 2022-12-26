@@ -1,0 +1,13 @@
+.filter-form{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter-form input{
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 10px;
+}

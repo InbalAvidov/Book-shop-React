@@ -1,0 +1,24 @@
+.books-list{
+    display: grid;
+    max-width:100%;
+    grid-template-columns: repeat( auto-fill, minmax(180px, 1fr) );
+    gap: 10px;
+}
+
+.book{
+    background-color: rgb(234, 234, 234);
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3px;
+}
+.book h2{
+    flex: 1;
+}
+
+.book-img{
+   max-height: 177px;
+   object-fit: contain;
+}
